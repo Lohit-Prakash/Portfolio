@@ -1,0 +1,110 @@
+body {
+  background-color: #371B58;
+  margin: 0;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  /*margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;*/
+}
+
+.top-container {
+  background-color: #DEB6AB;
+  margin: 0;
+  padding-top: 100px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+.top-cloud{
+  position: absolute;
+  right:  300px;
+  top: 30px;
+}
+
+h1 {
+  font-size: 5.625rem;   /*100% is equal to 16px, then for 100px = 525% */
+  margin:  50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #371B58;
+  height: 264px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #354259;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+.middle-container {
+  background-color: #85586F;
+
+
+}
+.skills {
+  background-color: #446A46;
+}
+
+
+.profile {
+  padding-top: 10px;
+}
+.profile-img {
+  height: 150px;
+  width : 150px;
+  position: relative;
+  right:2px;
+}
+
+.skills {
+  height:500px;
+}
+.arduino {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  position: absolute;
+  right: 300px;
+}
+.electronics {
+  width: 200px;
+  height: 200px;
+
+  position : absolute;
+  left: 300px;
+
+  border-radius: 100%;
+}
+
+a {
+  color: #11999E;
+}
+
+.skill-row-1 {
+  text-align: left;
+  width: 600px;
+  margin-left: 200px;
+
+
+}
+
+.skill-row-2 {
+  text-align: right;
+  margin-right: 200px;
+
+}
+.p-skill-row-2 {
+  text-align: right;
+  width: 600px;
+  margin-right: 600px;
+  padding-left: 65%;
+  padding-top: 100px;
+}
